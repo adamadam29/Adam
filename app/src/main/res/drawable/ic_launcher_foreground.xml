@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Cyan Glow ring -->
+    <path
+        android:pathData="M54,24 A30,30 0 1,1 53.9,24"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FF00F2FE"
+        android:fillColor="#00000000" />
+
+    <!-- Kinetic Speed Tracks -->
+    <path
+        android:pathData="M24,40 L34,40"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFF2E93" />
+    <path
+        android:pathData="M20,54 L32,54"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FF00F2FE" />
+    <path
+        android:pathData="M24,68 L34,68"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FF9D4EDD" />
+
+    <!-- Centered play node representing keyframe graphics -->
+    <path
+        android:pathData="M46,38 L46,70 L72,54 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#FF00F2FE"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="46"
+                android:startY="54"
+                android:endX="72"
+                android:endY="54"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00F2FE" />
+                <item android:offset="1.0" android:color="#FFFF2E93" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

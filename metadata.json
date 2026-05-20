@@ -1,0 +1,6 @@
+{
+  "name": "Motion Editor",
+  "description": "A professional video and motion graphics editor with keyframe animations, multi-layer timeline, custom filters, vector styling, and export rendering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
